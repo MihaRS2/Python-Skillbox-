@@ -9,7 +9,12 @@
 number_1 = int(input("Введите число 1 : "))
 number_2 = int(input("Введите число 2: "))
 summ = number_1 + number_2
-while number_1 > 0 or number_2 > 0:
-    print("сумма = " ,summ)
+while number_1 != 0 or number_2 != 0:
+    print("сумма =" ,summ)
+    number_1 = int(input("Введите число 1 : "))
+    number_2 = int(input("Введите число 2: "))
+print("Вы ввели 0 программа завершилась")
 
+ 
+ 
  
